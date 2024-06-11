@@ -8,9 +8,15 @@ const perguntas = [
     {
         enunciado: "Assim que saiu da escola você se depara com uma menina e ela ta dando em cima de vc, oque vc faz?",
         alternativas: [
-            "sair correndo e fingir ser um deb mental",
-            "conversar com ela"
-        ]
+            {
+                texto:"sair correndo e fingir ser um deb mental";
+                afirmacao: "afirmacao"
+            }
+            {
+                texto:"conversar com ela";
+                afirmacao: "afirmacao";
+            }
+]
     },
     {
         enunciado: "depois a isabelly te convida pra sair, que atitude você toma?",
