@@ -11,5 +11,15 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    min-height: (100vh);
+    min-height: 100vh;
 }
+ .caixa-principal{
+     backgroud-color: var (--cor-principal);
+     whidth: 90%;
+     max-whidth: 600px;
+     text-align: center;
+     padding: 20px;
+ }
+  h1{
+      color: var(--cor-destaque);
+  }
