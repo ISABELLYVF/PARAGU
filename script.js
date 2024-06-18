@@ -34,27 +34,37 @@ const perguntas = [
     {
         enunciado: " você esta em um campeonato de vôlei, e no final da partida as meninas pedem um autografo no peito delas, oque você faria",
         alternativas: [
-
+            {
             texto: "assinar no peito de todas";
             afirmacao:"afirmacao";
-        {
         }
+        {
          texto: "esfregar a alianca na cara delas";
-           afirmacao: "afirmacao";............
+           afirmacao: "afirmacao";
         ]
-    },
+        },
     {
         enunciado: "você ve o cara dando em cima da isa e dando flores, oque você faria?",
         alternativas: [
-            "deixaria a isa com o cara por que ele é melhor que você",
-            "ou a puxaria pela cintura e daria um beijão "
+            {
+            texto: "deixaria a Isa com o cara por que ele é melhor que você";
+            afirmacao: "afirmacao";
+    }
+    {
+            texto: "puxaria a Isa pra longe dele";
+            afirmacao:" afirmacao";
         ]
     },
     {
         enunciado: "oque você faria no dia do casamento da isa de não fosse com você",
         alternativas: [
-            "rouba a arma do seu pai e atira emtodo mundo",
-            "deixar se casar e sofra pelo restoda sua vida"
+            {
+                texto:" roubar a arma do seu pai e atirar em todo mundo";
+                afirmacao:"afirmacao";
+    }
+    {
+               texto:"deixa ela se casar e sofrer pelo resto da vida";
+                   afirmacao:"afirmacao";
         ]
     },
 ]; 
