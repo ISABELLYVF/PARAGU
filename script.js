@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto:"sair correndo e fingir ser um deb mental";
-                afirmacao: "afirmacao"
+                afirmacao: "afirmacao";
             }
             {
                 texto:"conversar com ela";
@@ -21,15 +21,26 @@ const perguntas = [
     {
         enunciado: "depois a isabelly te convida pra sair, que atitude você toma?",
         alternativas: [
-            "aceitar o convite!",
-            "dizer que esta ocupado e sair com a menina estranha"
+            {
+                texto:" aceitar o convite" ;
+                    afirmacao: "afirmacao";
+    }
+    {
+              texto: " dizer que esta ocupado e sair com a menina estranha";
+              afirmacao: "afirmacao";
+    }
         ]
     },
     {
         enunciado: " você esta em um campeonato de vôlei, e no final da partida as meninas pedem um autografo no peito delas, oque você faria",
         alternativas: [
-            "Alternativa assina no peito de todas ",
-            "esfrega a aliança na cara delas"
+
+            texto: "assinar no peito de todas";
+            afirmacao:"afirmacao";
+        {
+        }
+         texto: "esfregar a alianca na cara delas";
+           afirmacao: "afirmacao";............
         ]
     },
     {
