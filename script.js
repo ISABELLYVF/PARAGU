@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma menina e ela ta dando em cima de vc, oque vc faz?",
+        enunciado: "Assim que saiu da escola você se depara com uma menina e ela ta dando em cima de vc, o que vc faz?",
         alternativas: [
             {
                 texto: "sair correndo e fingir ser um deb mental",
@@ -19,36 +19,36 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "depois a isabelly te convida pra sair, que atitude você toma?",
+        enunciado: "Depois a Isabelly te convida pra sair, que atitude você toma?",
         alternativas: [
             {
                 texto: "aceitar o convite",
                 afirmacao: "afirmacao",
             },
             {
-                texto: "dizer que esta ocupado e sair com a menina estranha",
+                texto: "dizer que está ocupado e sair com a menina estranha",
                 afirmacao: "afirmacao",
             }
         ]
     },
     {
-        enunciado: "você esta em um campeonato de vôlei, e no final da partida as meninas pedem um autografo no peito delas, oque você faria",
+        enunciado: "Você está em um campeonato de vôlei, e no final da partida as meninas pedem um autógrafo no peito delas, o que você faria?",
         alternativas: [
             {
                 texto: "assinar no peito de todas",
                 afirmacao: "afirmacao",
             },
             {
-                texto: "esfregar a alianca na cara delas",
+                texto: "esfregar a aliança na cara delas",
                 afirmacao: "afirmacao",
             }
         ]
     },
     {
-        enunciado: "você ve o cara dando em cima da isa e dando flores, oque você faria?",
+        enunciado: "Você vê o cara dando em cima da Isa e dando flores, o que você faria?",
         alternativas: [
             {
-                texto: "deixaria a Isa com o cara por que ele é melhor que você",
+                texto: "deixaria a Isa com o cara porque ele é melhor que você",
                 afirmacao: "afirmacao",
             },
             {
@@ -58,14 +58,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "oque você faria no dia do casamento da isa de não fosse com você",
+        enunciado: "O que você faria no dia do casamento da Isa se não fosse com você?",
         alternativas: [
             {
                 texto: "roubar a arma do seu pai e atirar em todo mundo",
                 afirmacao: "afirmacao",
             },
             {
-                texto: "deixa ela se casar e sofrer pelo resto da vida",
+                texto: "deixar ela se casar e sofrer pelo resto da vida",
                 afirmacao: "afirmacao",
             }
         ]
