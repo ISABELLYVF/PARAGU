@@ -1,25 +1,25 @@
 :root{
-    --cor-fundo:#7FA4C3;
-    --cor-principal:#7F86CD;
-    --cor-secundaria:#322727;
-    --cor-destaque:#2BDEFD;
-    --cor-texto:#D7F9FF;
+  --cor-fundo:#7FA4C3;
+  --cor-principal:#7F86CD;
+  --cor-secundaria:#322727;
+  --cor-destaque:#2BDEFD;
+  --cor-texto:#D7F9FF;
 }
 body{
-    backgroud-color: var (--cor-fundo);
-    color: var (--cor-texto);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  backgroud-color: var (--cor-fundo);
+  color: var (--cor-texto);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
- .caixa-principal{
-     background-color: var (--cor-principal);
-     white-space : 90%;
-     max-whited : 600px;
-     text-align: center;
-     padding: 20px;
- }
-  h1{
-      color: var(--cor-destaque);
-  }
+.caixa-principal{
+   background-color: var (--cor-principal);
+   white-space : 90%;
+   max-whited : 600px;
+   text-align: center;
+   padding: 20px;
+}
+h1{
+    color: var(--cor-destaque);
+}
